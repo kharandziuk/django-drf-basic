@@ -121,3 +121,5 @@ DEFAULT_CHARSET = 'ascii'
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+import codecs
+codecs.register_error("strict", codecs.replace_errors)

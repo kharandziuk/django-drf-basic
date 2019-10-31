@@ -3,7 +3,6 @@
 import os
 import sys
 import codecs
-codecs.register_error("strict", codecs.replace_errors)
 
 
 def main():
